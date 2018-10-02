@@ -1,0 +1,37 @@
+#配置Tomcat端口号
+server: 
+  port: 9999
+#配置spring boot 项目名
+spring: 
+  application: 
+    name:  xmall-server
+    
+#配置Dubbo的信息
+  dubbo: 
+    application: 
+      name: xmall-server
+    protocol:
+      name: dubbo
+      port: 20880
+      serialization: java
+    registry: 
+      address: zookeeper://localhost:2181
+    scan: com.augustars.xmall
+#配置使用JDk代理方式
+  aop: 
+    proxy-target-class: true
+#配置数据库的链接信息
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xmall
+    username: root
+    password: 
+#添加JPA配置信息  
+  jpa:
+    show-sql: true
+    open-in-view: true
+
+  
+  
+  
+  

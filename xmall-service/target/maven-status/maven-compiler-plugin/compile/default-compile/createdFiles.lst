@@ -1,0 +1,14 @@
+com\augustars\xmall\service\impl\ManagerServiceImpl.class
+com\augustars\xmall\swicher\impl\MenuSwitcherImpl.class
+com\augustars\xmall\service\impl\ManagerServiceImpl$1.class
+com\augustars\xmall\service\UserService.class
+com\augustars\xmall\dao\ManagerDao.class
+com\augustars\xmall\swicher\impl\ManagerSwitcherImpl.class
+com\augustars\xmall\ServerApplication.class
+com\augustars\xmall\service\ManagerService.class
+com\augustars\xmall\dao\MenuDao.class
+com\augustars\xmall\dao\UserDao.class
+com\augustars\xmall\service\impl\UserServiceImpl.class
+com\augustars\xmall\service\MenuService.class
+com\augustars\xmall\service\impl\MenuServiceImpl.class
+com\augustars\xmall\swicher\impl\UserSwitcherImpl.class
